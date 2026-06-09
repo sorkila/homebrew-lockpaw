@@ -7,7 +7,7 @@ cask "lockpaw" do
   desc "Cover your Mac screen while AI agents keep running"
   homepage "https://getlockpaw.com"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Lockpaw.app"
 
